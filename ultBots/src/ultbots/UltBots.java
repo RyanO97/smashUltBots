@@ -21,11 +21,8 @@ public class UltBots {
         // TODO code application logic here
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                JFrame frame = new JFrame("Hello World");
-                frame.setSize(500, 400);
-                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setVisible(true);
-                System.out.println("Hello world");
+                new MainFrame();
+
             }
         });
 
